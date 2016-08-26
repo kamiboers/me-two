@@ -1,15 +1,19 @@
 <div class="backstretch">
   <div class="inner">
-    <div class="panel">
-      <div id="panel-content"></div>  
+    <div class="content">
+      <div class="panel-content">
+        <div class="panel" id="about-panel"> <%= render 'about' %></div>
+        <div class="panel" id="code-panel"><%= render 'code' %></div>
+        <div class="panel" id="contact-panel"><%= render 'contact' %></div>
+      </div>
     </div>  
     <div class="sidebar">
       <div id="sidebar-content">
       <div id="title">kami boers</div>
         <div class="links">
-          <div id='about'><a href="#" class='side'>about.</a></div>
-          <div id='code'><a href="#" class='side'>code.</a></div>
-          <div id='contact'><a href="#" class='side'>contact.</a></div>
+          <div id='about-link'><a href="#">about.</a></div>
+          <div id='code-link'><a href="#">code.</a></div>
+          <div id='contact-link'><a href="#">contact.</a></div>
         </div>
       </div>
     </div>

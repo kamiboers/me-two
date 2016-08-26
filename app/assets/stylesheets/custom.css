@@ -3,27 +3,34 @@ a, a:hover, a:target {
 }
 
 .inner {
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
   z-index: 0;
   position: fixed; 
 }
 
-.panel {
+.content {
   float: left;
   height: 100%;
   width: 80%;
   z-index: 100000;
 }
 
-#panel-content {
-  background-color: #201f2a;
+.panel-content {
   opacity: 1;
   z-index: 100001;
   font-size: 28px;
   overflow-y: scroll;
-  color: #eaeaea;
+  height: 100%;
+  width: 100%;
+}
+
+.panel {
   display: none;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
 
 .sidebar {
@@ -37,9 +44,8 @@ a, a:hover, a:target {
 }
 
 #sidebar-content {
-  font-family: sans-serif;
-  font-size: 36px;
-  font-weight: 500;
+  line-height: 1.05;
+  font-size: 34px;
   padding: 15px;
   text-align: right;
   z-index: 101;
@@ -51,6 +57,16 @@ a {
 
 a:hover {
   color:  #002633;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+#title {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: .65;
 }
 
 /*
@@ -69,18 +85,4 @@ a:hover {
 }
 
 
-.links {
-  line-height: 1.2;
-  margin-top: 15px;
-}
-
-#title {
-  color:  teal;
-  font-size: 46px;
-  font-weight: 500;
-  border-bottom-style: double;
-  border-bottom-width: 7px;
-  border-bottom-color: #002633;
-  padding-bottom: 20px;
-}
 */
