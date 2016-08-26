@@ -2,28 +2,6 @@ a, a:hover, a:target {
   text-decoration: none;
 }
 
-a {
-  color: teal;
-}
-
-a:hover {
-  color:  #002633;
-}
-
-.backstretch {
-  /*background: url(../images/earth.jpeg) no-repeat center center fixed; */
-  background-color: #00977c;
-  position: fixed; 
-  overflow: hidden; 
-  height: 100%; 
-  width: 100%;
-  z-index: -999999;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .inner {
   height: 100%;
   width: 100%;
@@ -67,6 +45,30 @@ a:hover {
   z-index: 101;
 }
 
+a {
+  color: #004d4d;
+}
+
+a:hover {
+  color:  #002633;
+}
+
+/*
+.backstretch {
+  background: url(../images/earth.jpeg) no-repeat center center fixed; 
+  background-color: #00977c;
+  position: fixed; 
+  overflow: hidden; 
+  height: 100%; 
+  width: 100%;
+  z-index: -999999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .links {
   line-height: 1.2;
   margin-top: 15px;
@@ -81,3 +83,4 @@ a:hover {
   border-bottom-color: #002633;
   padding-bottom: 20px;
 }
+*/
